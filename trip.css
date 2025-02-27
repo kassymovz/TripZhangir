@@ -1,0 +1,247 @@
+.navigation{
+    display: flex;
+    background:rgb(61, 61, 61);
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    display: inline;
+    color:white;
+    margin:0 113px;
+    font-size:33px;
+    font-weight: 700;
+}
+ul li:hover{
+    color:gold;
+}
+#travel{
+    position: sticky;
+    top:0;
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background-color: rgb(61, 61, 61);
+    opacity: 0.88;
+}
+body{
+    background:rgb(61, 61, 61);
+}
+#about{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.trip{
+    display: flex;
+}
+#turs{  
+    height:797px;
+    width:100%;
+    background-image: url("https://avatars.mds.yandex.net/i?id=0ce420b9903707c7a9c5598e234a72d4_l-4566624-images-thumbs&n=13");
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.Inforamtion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slide{
+    width:25%;
+    transition:all .4s ease-in;
+}
+.slide img{
+    width:100%;
+    height:100%;
+}
+label{
+    background:white;
+    height:33px;
+    width:32px;
+    border-radius: 45px;
+    border:4px solid black;
+    transition:all .4s ease-in;
+}
+label:hover{
+    opacity: 0.78;
+}
+input{
+    height:23px;
+    width:220px;
+    left:145px;
+    border:3px solid green;
+    font-size:23px;
+    margin:5px;
+}
+.nav-lab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+p{
+    text-align: center;
+}
+#n1:checked ~ .s1{  
+    margin-left:0;
+}
+#n2:checked ~ .s1{
+    margin-left:-25%;
+}
+#n3:checked ~ .s1{
+    margin-left:-50%;
+}
+#n4:checked ~ .s1{
+    margin-left:-75%;
+}
+#n5:checked ~ .s1{
+    margin-left: -102%;
+}
+button{
+    background:gold;
+    height:53px;
+    width:245px;
+    border-radius: 99px;
+    font-size:29px;
+    color:black;
+    border:3px solid black;
+}
+.About{
+    padding:15px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.Tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap:12px;
+}
+#picture-city{
+    display: flex;
+    background-image: url("https://avatars.mds.yandex.net/i?id=b56df1a06676ffb0264b89837eb74461_l-5875863-images-thumbs&n=13");
+    background-size:cover;
+    height:364px;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+a{
+    text-decoration:none;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.Registration{
+    display: flex;
+    flex-direction: column;
+}
+.tours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+    padding:5px;
+}
+.acquaintance,.Horses,.decorations,.Canyon,.mountains,.kayakign,.attractions,.dayving,.Tropl,.sever,.GES,.Iragan{
+    background-color: white;
+}
+h3{
+    font-size:23px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    display: none;
+    overflow: auto;
+    top:0;
+    left:0;
+}
+.Inforamtion{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.second-tours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:22px;
+    padding:5px;
+}
+input{
+    border-radius: 15px;
+    height:22px;
+    width:423px;
+}
+.Revies{
+    overflow: auto;
+}
+.middle{
+    transform: translateX(-50%,-50%);
+    top:34%;
+    left:34%;
+}
+.Tours-second{
+    display: flex;
+    align-items: center;
+    gap:22px;
+    justify-content: center;
+    padding:5px;
+}
+.revies-country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;   
+}
+.slidere{
+    background:rgb(61, 61, 61);
+    height:34px;
+    width:36px;
+    border-radius: 99px;
+}
+.slidere:hover{
+    opacity: 0.81;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background:rgb(61, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer{
+    background-color: rgb(61, 61, 61);
+}
+img{
+    margin:12px;
+}
